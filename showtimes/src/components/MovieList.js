@@ -5,7 +5,7 @@ class MovieList extends Component {
     render() {
 
         console.log(this.props.movies);
-        const movieNodes = this.props.movies.map((movie) => {
+        const movieNodes = this.props.movies.map((movie, index) => {
             return (
                 <Movie
                 title={movie.title}

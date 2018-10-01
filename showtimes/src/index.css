@@ -3,3 +3,24 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.times {
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #E8E8E8;
+  color: #3399FF;
+  display: inline-block;
+}
+
+.times h4 {
+  float: left;
+}
+.times a {
+  margin-top: 20px;
+  margin-left: 20px;
+  padding-left: 20px;
+  float: right;
+}
